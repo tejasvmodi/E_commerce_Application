@@ -4,7 +4,7 @@ class ApiClient extends GetConnect implements GetxService{
   late String token="1";
   final String appBaseUrl;
   late Map<String,String> _mainHeaders;
-  
+//inmutable
 
   ApiClient({ required this.appBaseUrl}){
     baseUrl=appBaseUrl;
